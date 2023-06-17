@@ -13,3 +13,4 @@ echo "<p>Alamat: $address</p>"
 echo "<p>Email: $email</p>"
 echo "<p>Nomor Telepon: $phone</p>"
 echo $name
+echo "$name"
