@@ -2,26 +2,39 @@
 <html>
 <head>
     <title>Aplikasi Desain Form</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Aplikasi Desain Form</h1>
-    <form id="myForm">
-        <label for="name">Nama:</label>
-        <input type="text" name="name" id="name" required><br><br>
+    <div class="container">
+        <h1>Aplikasi Desain Form</h1>
+        <form id="myForm">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
 
-        <label for="address">Alamat:</label>
-        <input type="text" name="address" id="address" required><br><br>
+            <div class="form-group">
+                <label for="address">Alamat:</label>
+                <input type="text" name="address" id="address" required>
+            </div>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required><br><br>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
 
-        <label for="phone">Nomor Telepon:</label>
-        <input type="tel" name="phone" id="phone" required><br><br>
+            <div class="form-group">
+                <label for="phone">Nomor Telepon:</label>
+                <input type="tel" name="phone" id="phone" required>
+            </div>
 
-        <input type="button" value="Submit" onclick="processForm()">
-    </form>
-    <div id="result"></div>
+            <div class="form-group">
+                <input type="button" value="Submit" onclick="processForm()">
+            </div>
+        </form>
+        <div id="result"></div>
+    </div>
 </body>
 </html>
 
