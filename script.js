@@ -3,7 +3,7 @@ function processForm() {
     var formData = new FormData(form);
     var xhr = new XMLHttpRequest();
 
-    xhr.open("POST", "process_form.sh", true);
+    xhr.open("POST", "process_form.php", true);
     xhr.onload = function () {
         if (xhr.status === 200) {
             document.getElementById("result").innerHTML = xhr.responseText;
@@ -11,3 +11,4 @@ function processForm() {
     };
     xhr.send(formData);
 }
+
