@@ -14,3 +14,5 @@ echo "<p>Email: $email</p>"
 echo "<p>Nomor Telepon: $phone</p>"
 echo $name
 echo "$name"
+$name
+"$name"
