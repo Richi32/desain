@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplikasi Desain Form</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Aplikasi Desain Form</h1>
+    <form id="myForm">
+        <label for="name">Nama:</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <label for="address">Alamat:</label>
+        <input type="text" name="address" id="address" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <label for="phone">Nomor Telepon:</label>
+        <input type="tel" name="phone" id="phone" required><br><br>
+
+        <input type="button" value="Submit" onclick="processForm()">
+    </form>
+    <div id="result"></div>
+</body>
+</html>
